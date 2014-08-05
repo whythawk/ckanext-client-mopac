@@ -1,0 +1,7 @@
+      {% block header_logo %}
+          <h1>
+            <a href="{{ h.url('home') }}">M O P A C</a>
+          </h1>
+          {% if g.site_description %}<h2>{{ g.site_description }}</h2>{% endif %}
+        {% endif %}
+      {% endblock %}

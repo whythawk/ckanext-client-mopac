@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 version = '0.1'
 
 setup(
-    name='ckanext-mopac',
+    name='ckanext-client-mopac',
     version=version,
     description="Mopac client extension",
     long_description='''
